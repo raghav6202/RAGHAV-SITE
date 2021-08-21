@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+:root{
+
+    --primary-color: #FF6363;
+    --secondary-color: grey;
+
+}
+
+
+body
+{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container-fluid
+{
+    padding-left: 10rem;
+    padding-right: 10rem;
+
+}
+.container-center
+{
+    max-width: 600px;
+    margin: auto;
+}
+
+.link{
+    text-decoration: none; 
+    /* to remove the underline and other decor */
+    padding: 1rem 1rem ;
+
+    /*padding-bottom
+      padding-left
+      padding-right
+      padding-top */
+}
+.linkshr{
+    margin: 3rem 0rem 0rem 0rem;
+}
+/* can be used instead of <br> tag */
+
+
+.primary-link
+{
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    color: white;
+
+}
+.secondary-link
+{
+
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: yellow;
+
+
+}
+.no-bullet
+{
+list-style: none;
+
+}
+.inline-text
+{
+    display: inline;
+    padding: 0rem 1rem 0rem ;
+}
+
+.navigator
+{
+    background-color: var(--primary-color);
+    border-bottom-right-radius: 3rem;
+}
+
+.navigator-head
+{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navigator .link
+{
+    color: white;
+}
+
+.navigator-list
+{
+    text-align: right;
+    padding: 1rem;
+}
+
+.navigator .link-active
+{
+    font-weight: bold;
+}
+
+.hero
+{
+    padding: 2rem;
+    text-align: center;
+}
+.hero-image
+{
+    padding-right: 3rem;
+max-width: 350px;
+display: block;
+margin: auto;
+
+}
+.hero-text
+{
+    font-size: large;
+    font-weight: bold;
+    color: var(--secondary-color);
+  text-align: center;
+}
+
+.section
+{
+    padding: 2rem;
+}
+.section,h3
+{
+text-align: center;
+}
+
+.s1
+{
+    background-color:lavender;
+}
+
+.foot
+{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    border-bottom-right-radius: 2rem;
+    text-align: center;
+}
+
+.foot-head{
+
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.foot .link
+{
+    color: white;
+}
+
+.foot-list
+{
+    text-align: center;
+    margin: auto;
+    padding-inline-start: 0px;
+}
